@@ -1,0 +1,21 @@
+{
+  "name": "stock-portfolio-server",
+  "version": "1.0.0",
+  "description": "Stock portfolio tracker backend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.5.1",
+    "yahoo-finance2": "^2.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
